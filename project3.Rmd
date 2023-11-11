@@ -7,6 +7,7 @@ output:
     toc: true
     df_print: kable
     html_preview: false
+    math_method: webtex
   pdf_document:
     latex_engine: xelatex
     highlight: haddock
@@ -152,15 +153,12 @@ l(\pi_{ij's}, \lambda's) &=
 \frac{\partial l}{\partial \pi_{ij}} &= 
 n_{ij} \frac{1}{\pi_{ij}} -\lambda_i =0\\
 \frac{\partial l}{\partial \lambda_i} &=1-\sum_{j=1}^J\pi_{ij}=0 \\
-\end{aligned}
-$$
-
-Therefore,
-
-$$
-\begin{aligned}
-\lambda_i &= \sum_{j=1}^J n_{ij} = n_{i +} \\
-\hat{\pi}_{ij \text{MLE}} &= \frac{n_{ij}}{\sum_{j=1}^J n_{ij}}=n_{ij} /n_{i +}
+\\ 
+\Rightarrow&
+\begin{cases}
+\lambda_i = \sum_{j=1}^J n_{ij} = n_{i\bullet} \\
+\hat{\pi}_{ij\text{ MLE}}=\frac{n_{ij}}{\sum_{j=1}^J n_{ij}}=n_{ij} /n_{i\bullet}
+\end{cases}
 \end{aligned}
 $$
 

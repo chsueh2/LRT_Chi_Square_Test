@@ -14,7 +14,7 @@ Key features:
 
 ## Project Report
 
-The analysis results with all theoretical backgrounds and math derivations are included in the [project report](./project3.md) ([R Markdown](./project3.Rmd)).
+The analysis results with all theoretical backgrounds and math derivations are included in the [project report](./project3.md) ([pdf](./project3.pdf))([R Markdown](./project3.Rmd)).
 
 Original Completion Date: December 5, 2022
 
