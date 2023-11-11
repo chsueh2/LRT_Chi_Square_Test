@@ -192,8 +192,8 @@ Therefore,
 
 $$
 \begin{aligned}
-\lambda_i &= \sum_{j=1}^J n_{ij} = n_{i\bullet} \\
-\hat{\pi}_{ij\text{MLE}} &= \frac{n_{ij}}{\sum_{j=1}^J n_{ij}}=n_{ij} /n_{i\bullet}
+\lambda_i &= \sum_{j=1}^J n_{ij} = n_{i +} \\
+\hat{\pi}_{ij\text{MLE}} &= \frac{n_{ij}}{\sum_{j=1}^J n_{ij}}=n_{ij} /n_{i +}
 \end{aligned}
 $$
 
@@ -203,7 +203,7 @@ Under the null hypothesis, $\pi_{ij}=\pi_j$. The likelihood function can
 be rewritten as
 $l=\sum_{i=1}^I \sum_{j=1}^J n_{ij} \ln\pi_j + \text{const}$. To
 maximize the likelihood function $L$ in the null space $\omega_0$, we
-need to maximize $l$ subject to $`\sum_{j=1}^J \pi_{j}=1`$. This can be
+need to maximize $l$ subject to $\sum_{j=1}^J \pi_{j}=1$. This can be
 done by using Lagrange multiplier:
 
 $$
@@ -835,12 +835,12 @@ power (with fixed sample sizes).
 ## Future Study
 
 There are some interesting topics remained for further studies. One is
-how to deal with $\ln0$. In this study, inconsistent methods are used to
-avoid $\ln0$. For the cells with zero expected counts
-(i.e. $\ln \text{Exp}_{ij} =\ln0$), we add 0.5 to the zero expected
+how to deal with $\ln 0$. In this study, inconsistent methods are used
+to avoid $\ln 0$. For the cells with zero expected counts
+(i.e. $\ln \text{Exp}_{ij} =\ln 0$), we add 0.5 to the zero expected
 counts. For the cells with zero observed counts
-(i.e. $\ln \text{Obs}_{ij}=\ln0$) that cause problems in calculating LRT
-test statistics, we just remove them from the calculating rejection
+(i.e. $\ln \text{Obs}_{ij}=\ln 0$) that cause problems in calculating
+LRT test statistics, we just remove them from the calculating rejection
 rates without any study to support if these are appropriate.
 
 The other is the cells with smaller counts. We are often told the rule
