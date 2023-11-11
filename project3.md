@@ -185,7 +185,11 @@ l(\pi_{ij's}, \lambda's) &=
 \frac{\partial l}{\partial \pi_{ij}} &= 
 n_{ij} \frac{1}{\pi_{ij}} -\lambda_i =0\\
 \frac{\partial l}{\partial \lambda_i} &=1-\sum_{j=1}^J\pi_{ij}=0 \\
-\\ 
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
 \Rightarrow&
 \begin{cases}
 \lambda_i = \sum_{j=1}^J n_{ij} = n_{i\bullet} \\
