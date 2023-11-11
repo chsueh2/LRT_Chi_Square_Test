@@ -67,54 +67,7 @@ pacman::p_load(
   moments, cumstats,
   tidyverse, zeallot
 )
-```
 
-    ## Installing package into 'C:/Users/clh82/AppData/Local/R/win-library/4.3'
-    ## (as 'lib' is unspecified)
-
-    ## also installing the dependencies 'plyr', 'reshape'
-
-    ## Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
-    ##   cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'
-
-    ## package 'plyr' successfully unpacked and MD5 sums checked
-    ## package 'reshape' successfully unpacked and MD5 sums checked
-    ## package 'GGally' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  C:\Users\clh82\AppData\Local\Temp\RtmpGQHlKh\downloaded_packages
-
-    ## 
-    ## GGally installed
-
-    ## Installing package into 'C:/Users/clh82/AppData/Local/R/win-library/4.3'
-    ## (as 'lib' is unspecified)
-
-    ## Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
-    ##   cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'
-
-    ## package 'moments' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  C:\Users\clh82\AppData\Local\Temp\RtmpGQHlKh\downloaded_packages
-
-    ## 
-    ## moments installed
-    ## Installing package into 'C:/Users/clh82/AppData/Local/R/win-library/4.3'
-    ## (as 'lib' is unspecified)
-
-    ## Warning: unable to access index for repository http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3:
-    ##   cannot open URL 'http://www.stats.ox.ac.uk/pub/RWin/bin/windows/contrib/4.3/PACKAGES'
-
-    ## package 'zeallot' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  C:\Users\clh82\AppData\Local\Temp\RtmpGQHlKh\downloaded_packages
-
-    ## 
-    ## zeallot installed
-
-``` r
 # resolve conflicts by setting preference
 conflict_prefer("select", "dplyr", quiet = T)
 conflict_prefer("filter", "dplyr", quiet = T)
@@ -206,14 +159,16 @@ l(\pi_{11},\ldots,\pi_{IJ}) &= \ln L \\
 \end{aligned}
 $$
 
-The likelihood ratio test is $$
+The likelihood ratio test is
+
+$$
 \begin{aligned}
 \Lambda &= \frac{\max_{\pi's \in \omega_0} L(\pi_{11},\ldots,\pi_{IJ})}
 {\max_{\pi's \in \Omega} L(\pi_{11},\ldots,\pi_{IJ})} <c
 \end{aligned}
 $$
 
-and we reject $H_0$ for $\Lambda <c$ where $c$ is chosen to control the
+and we reject $H_0$ for $\Lambda<c$ where $c$ is chosen to control the
 significance level $\alpha$.
 
 ### Maximize $L$ in the Entire Parameter Space
