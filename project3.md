@@ -203,7 +203,7 @@ Under the null hypothesis, $\pi_{ij}=\pi_j$. The likelihood function can
 be rewritten as
 $l=\sum_{i=1}^I \sum_{j=1}^J n_{ij} \ln\pi_j + \text{const}$. To
 maximize the likelihood function $L$ in the null space $\omega_0$, we
-need to maximize $l$ subject to $\sum_{j=1}^J \pi_{j}=1$. This can be
+need to maximize $l$ subject to $`\sum_{j=1}^J \pi_{j}=1`$. This can be
 done by using Lagrange multiplier:
 
 $$
