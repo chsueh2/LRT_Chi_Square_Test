@@ -28,7 +28,7 @@ Chien-Lan Hsueh
 
 ## Packages
 
-The following packages are used in this project:
+The following packages are used in this project fffffff:
 
 - `conflicted`: tools to deal with R package conflicts
 - `here`: enables easy file referencing and builds file paths in a
