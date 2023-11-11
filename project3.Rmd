@@ -134,11 +134,11 @@ The likelihood ratio test is
 
 $$
 \begin{aligned}
-\Lambda &= \frac{\max_{\pi \in \omega_0} L(\pi_{11},\ldots,\pi_{IJ})}{\max_{\pi \in \Omega} L(\pi_{11},\ldots,\pi_{IJ})} <c
+\Lambda &= \frac{\max_{\pi's \in \omega_0} L(\pi_{11},\ldots,\pi_{IJ})}{\max_{\pi \in \Omega} L(\pi_{11},\ldots,\pi's_{IJ})} \le c
 \end{aligned}
 $$
 
-and we reject $H_0$ for $\Lambda<c$ where $c$ is chosen to control the significance level $\alpha$. 
+and we reject $H_0$ for $\Lambda=c$ where $c$ is chosen to control the significance level $\alpha$. 
 
 ### Maximize $L$ in the Entire Parameter Space
 
