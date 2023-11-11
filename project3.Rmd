@@ -5,7 +5,7 @@ date: "2022-12-05"
 output:
   github_document:
     toc: true
-    df_print: kable
+    df_print: paged
     html_preview: false
   pdf_document:
     latex_engine: xelatex
@@ -134,8 +134,7 @@ The likelihood ratio test is
 
 $$
 \begin{aligned}
-\Lambda &= \frac{\max_{\pi \in \omega_0} L(\pi_{11},\ldots,\pi_{IJ})}
-{\max_{\pi \in \Omega} L(\pi_{11},\ldots,\pi_{IJ})} <c
+\Lambda &= \frac{\max_{\pi \in \omega_0} L(\pi_{11},\ldots,\pi_{IJ})}{\max_{\pi \in \Omega} L(\pi_{11},\ldots,\pi_{IJ})} <c
 \end{aligned}
 $$
 

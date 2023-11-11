@@ -163,8 +163,7 @@ The likelihood ratio test is
 
 $$
 \begin{aligned}
-\Lambda &= \frac{\max_{\pi \in \omega_0} L(\pi_{11},\ldots,\pi_{IJ})}
-{\max_{\pi \in \Omega} L(\pi_{11},\ldots,\pi_{IJ})} <c
+\Lambda &= \frac{\max_{\pi \in \omega_0} L(\pi_{11},\ldots,\pi_{IJ})}{\max_{\pi \in \Omega} L(\pi_{11},\ldots,\pi_{IJ})} <c
 \end{aligned}
 $$
 
