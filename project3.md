@@ -193,7 +193,7 @@ Therefore,
 $$
 \begin{aligned}
 \lambda_i &= \sum_{j=1}^J n_{ij} = n_{i +} \\
-\hat{\pi}_{ij\text{MLE}} &= \frac{n_{ij}}{\sum_{j=1}^J n_{ij}}=n_{ij} /n_{i +}
+\hat{\pi}_{ij \text{MLE}} &= \frac{n_{ij}}{\sum_{j=1}^J n_{ij}}=n_{ij} /n_{i +}
 \end{aligned}
 $$
 
