@@ -3,6 +3,11 @@ title: "Chi Square Test for Homogeneity: Likelihood Ratio Test vs. Monte Carlo S
 author: "Chien-Lan Hsueh"
 date: "2022-12-05"
 output:
+  rmdformats::robobook: 
+    theme: cerulean
+    highlight: haddock
+    code_folding: none
+    df_print: paged
   github_document:
     toc: true
     df_print: kable
@@ -13,6 +18,7 @@ output:
     highlight: haddock
     df_print: tibble
   html_document:
+    toc: true
     theme: cerulean
     highlight: haddock
     code_folding: none
