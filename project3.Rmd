@@ -39,7 +39,7 @@ The following packages are used in this project:
 - `moments`: calculate moments, kurtosis and skewness
 - `cumstats`: efficiently compute cumulative standard deviation
 - `tidyverse`: includes collections of useful packages like `dplyr` (data manipulation), `tidyr` (tidying data),  `ggplots` (creating graphs), etc.
-- `zealot`: provides a `%<-%` operator to perform multiple, unpacking, and destructuring assignment 
+- `zealot`: provides a `%<-%` operator to perform multiple, unpacking, and destructing assignment 
 
 In addition, the `pacman` package provides handy tools to manage R packages (install, update, load and unload). We use its `p_laod()` instead of `libarary()` to load the packages listed above. 
 

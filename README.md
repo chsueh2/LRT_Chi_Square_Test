@@ -12,13 +12,27 @@ Key features:
 - Asymptotic Test Power
 - Monte Carlo Simulation 
 
+R packages used:
+
+- `conflicted`: tools to deal with R package conflicts
+- `here`: enables easy file referencing and builds file paths in a OS-independent way
+- `scales`: formats and labels scales nicely for better visualization
+- `skimr`: provides summary statistics about variables in data frames, tibbles, data tables and vectors
+- `glue`: embeds and evaluates R expressions into strings to be printed as messages
+- `gt`: pretty-looking tables
+- `GGally`: extends 'ggplot2' by combining geometric objects with transformed data
+- `moments`: calculate moments, kurtosis and skewness
+- `cumstats`: efficiently compute cumulative standard deviation
+- `tidyverse`: includes collections of useful packages like `dplyr` (data manipulation), `tidyr` (tidying data),  `ggplots` (creating graphs), etc.
+- `zealot`: provides a `%<-%` operator to perform multiple, unpacking, and destructing assignment 
+
 ## Project Report
 
-[Project report](./project3.md) ([HTML](https://rpubs.com/clh2021/1113681)) ([pdf](./project3.pdf))([R Markdown](./project3.Rmd)).
+[Project report](./project3.md) ([HTML](https://rpubs.com/clh2021/1113681))([PDF](./project3.pdf))([R Markdown](./project3.Rmd)).
 
 The analysis results with all theoretical backgrounds and math derivations are included.
 
-Author: Chien-Lan Hsueh (chienlan.hsueh at gmail.com)
+Chien-Lan Hsueh (chienlan.hsueh at gmail.com)
 
 ## Overview and Project Goal
 
