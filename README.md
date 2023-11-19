@@ -2,6 +2,8 @@
 
 Use Likelihood Ratio Test (LRT) to conduct a chi-square test for homogeneity and compare it with a Monte Carlo simulation.
 
+[Project report](https://rpubs.com/clh2021/1113681)
+
 Key features:
 
 - Likelihood Ratio Test
