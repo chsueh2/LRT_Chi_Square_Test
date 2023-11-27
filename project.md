@@ -53,7 +53,7 @@ The following packages are used in this project:
   (data manipulation), `tidyr` (tidying data), `ggplots` (creating
   graphs), etc.
 - `zealot`: provides a `%<-%` operator to perform multiple, unpacking,
-  and destructuring assignment
+  and destructing assignment
 
 In addition, the `pacman` package provides handy tools to manage R
 packages (install, update, load and unload). We use its `p_laod()`
@@ -788,7 +788,7 @@ df_alpha %>%
   )
 ```
 
-![](project3_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](project_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 It’s clear to see that the sample sizes
 ![n1](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;n1 "n1")
@@ -974,7 +974,7 @@ df_power %>%
   )
 ```
 
-![](project3_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](project_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 Compared to the previous study on the empirical alpha, we have similar
 conclusions on the empirical power: sample sizes play an important role
