@@ -30,7 +30,7 @@ R packages used:
 
 ## Project Report
 
-[Project report](https://rpubs.com/clh2021/1113681) ([Github Markdown](./project3.md))([PDF](./project3.pdf))([R Markdown](./project3.Rmd)).
+[Project report](https://rpubs.com/clh2021/1113681) ([Github Markdown](./project.md))([PDF](./project.pdf))([R Markdown](./project.Rmd)).
 
 The analysis results with all theoretical backgrounds and math derivations are included.
 
