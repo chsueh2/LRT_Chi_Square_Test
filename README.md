@@ -67,3 +67,6 @@ Consider the following three different setups:
 
 Analyze and summarize the results using faceted line plots for easy comparison.
 
+![](./images/image1.png)
+
+![](./images/image2.png)
